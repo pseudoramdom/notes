@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "pseudoramdom bytes",
+    pageTitle: "pseudoramdom",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
