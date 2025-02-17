@@ -15,12 +15,12 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <p>
           Content on this site is licensed under a
-          <a href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0 license</a>
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0 license </a>
           unless otherwise stated.
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
-            <li>
+            <li className="border-b border-gray-200 last:border-b-0">
               <a href={link}>{text}</a>
             </li>
           ))}

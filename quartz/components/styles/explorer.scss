@@ -278,16 +278,18 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
     #mobile-explorer {
       margin: 5px;
       z-index: 101;
-
+      position: absolute;
+      right: 0;  // Add this to move it to the right
+    
       &:not(.collapsed) .lucide-menu {
         transform: rotate(-90deg);
         transition: transform 200ms ease-in-out;
       }
-
+    
       .lucide-menu {
         stroke: var(--darkgray);
         transition: transform 200ms ease;
-
+    
         &:hover {
           stroke: var(--dark);
         }

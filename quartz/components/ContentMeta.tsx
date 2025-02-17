@@ -25,7 +25,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
   function ContentMetadata({ cfg, fileData, displayClass }: QuartzComponentProps) {
     if (fileData.slug === "index") {
-      return <></>
+      return null
     }
 
     const text = fileData.text
