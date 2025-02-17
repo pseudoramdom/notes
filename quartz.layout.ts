@@ -13,6 +13,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/pseudoramdom",
       Nostr: "nostr:npub1rammmfye8yvws8u2587ylnqt47h78k79ew28pqu9e2mppcypjlysukejd2",
+      RSS: "https://pseudoramdom.com/index.xml"
     },
   }),
 }
