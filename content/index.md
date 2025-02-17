@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: pseudoramdom bytes
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Hi! I'm pseudoramdom. Welcome to my brain dump on the internet.
